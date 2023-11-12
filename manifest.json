@@ -1,0 +1,14 @@
+{
+  "domain": "http_power_tool",
+  "name": "Http Power Tool",
+  "documentation": "https://your-documentation-url",
+  "dependencies": [],
+  "codeowners": [
+    "https://your-documentation-url"
+  ],
+  "requirements": [],
+  "config_flow": true,
+  "zeroconf": ["_http._tcp.local.", "_my_custom_integration._tcp.local."],
+  "title": "My Custom Integration",
+  "ssdp": []
+}
