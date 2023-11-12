@@ -52,7 +52,7 @@ class HttpPowerTool(Entity):
     def state(self):
         return self._state
 
-    # TODO Update the state of the entity.
+    # Update the state of the entity.
     async def async_update_state(self, *_):
         url = f"http{'s' if self._use_ssl else ''}://{self._host}:{self._port}/state"
         try:
